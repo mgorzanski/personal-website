@@ -2,7 +2,7 @@
 	<?php include 'template/header.php'; ?>
 
 	<section class="site-interlude different-devices">
-		<h2 class="site-interlude-big-text">A young web developer with ambitions.</h2>
+		<h2 class="site-interlude-big-text">aspiring full stack web dev</h2>
 	</section>
 
 	<main class="site-content">
