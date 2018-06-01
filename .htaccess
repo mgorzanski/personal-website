@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^pages/about-me$ about-me.php
+RewriteRule ^pages/contact-me$ contact-me.php
+RewriteRule ^portfolio$ portfolio.php
+RewriteRule ^portfolio/item/([a-zA-Z0-9\-\_]+)$ portfolio.php?item=$1

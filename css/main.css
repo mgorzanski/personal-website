@@ -1,0 +1,388 @@
+@font-face {
+    font-family:BebasNeue;
+    src: url('../fonts/BebasNeue.ttf');
+}
+
+header.site-header {
+	padding-top:15px;
+}
+
+h1.site-logo-title a {
+	font-family:BebasNeue;
+	color:#333;
+	text-decoration:none;
+	font-size:92px;
+}
+
+h1.site-logo-title a:hover {
+	opacity:0.5;
+	filter: alpha(opacity=50)
+}
+
+nav.site-nav {
+	padding-top:10px;
+}
+
+section.site-interlude {
+	margin-top:45px;
+}
+
+.different-devices {
+	background-image: url('../images/different-devices.png');
+	background-color:#D1D1D1;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position:top;
+}
+
+h2.site-interlude-big-text {
+	font-family: 'Cairo', sans-serif;
+	color:#fff;
+	font-size:50px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+section.about-me {
+	margin-top:25px;
+}
+
+img.image {
+	width:100%;
+}
+
+h3.about-me_title {
+	font-family:'Raleway', sans-serif;
+	color:#333;
+	font-size:40px;
+	padding:0;
+	margin:20px 0 0 0;
+	text-align: left;
+}
+
+p.about-me_text, p.contact-me_text {
+	font-family: 'Enriqueta', serif;
+	font-size:20px;
+	text-align: left;
+	padding-bottom:20px;
+	margin-bottom:0;
+}
+
+.text-space {
+	padding-top:17px;
+}
+
+p.about-me_text a {
+	color:#000;
+	text-decoration: underline;
+}
+
+.intro-line {
+	border-bottom:1px solid #D1D1D1;
+}
+
+p.about-me_readmore {
+	text-align: left;
+	font-family: 'Quicksand', sans-serif;
+	font-size:17px;
+	margin-top:10px;
+}
+
+p.about-me_readmore a {
+	color:#000;
+	text-decoration: underline;
+}
+
+.profile-description {
+	padding-left:40px;
+	padding-right:40px;
+}
+
+h2.section-title {
+	font-family:'Raleway', sans-serif;
+	color:#333;
+	font-size:40px;
+	padding:0;
+	margin:0;
+	text-align: center;
+}
+
+section.portfolio, section.contact-me {
+	margin-top:25px;
+}
+
+.portfolio-space {
+	margin-top:80px !important;
+}
+
+.portfolio-items {
+	margin-top:48px;
+}
+
+a.portfolio-item-link {
+	text-decoration: none;
+	display:block;
+}
+
+a.portfolio-item-link:hover {
+	opacity:0.5;
+	filter: alpha(opacity=50)
+}
+
+h4.portfolio-item-title {
+	font-family: 'Quicksand', sans-serif;
+	font-size:15px;
+	color:#000;
+	text-decoration: none;
+	text-align:left;
+	margin:0;
+	padding:9px 0 9px 0;
+	font-weight: normal;
+	font-size:17px;
+}
+
+.portfolio-show-all {
+	margin-top:35px;
+}
+
+p.portfolio-show-all-btn {
+	border:1px solid #333;
+	width:100px;
+	background-color:#333;
+	margin:0 auto;
+	padding:7px;
+}
+
+p.portfolio-show-all-btn:hover {
+	opacity:0.5;
+	filter: alpha(opacity=50)
+}
+
+p.portfolio-show-all-btn a {
+	color:#fff;
+	text-decoration: none;
+	font-family:'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-size:18px;
+}
+
+footer.site-footer {
+	margin-top:90px;
+}
+
+nav.social-media-nav {
+	margin-top:45px;
+}
+
+ul.social-media-menu, ul.social-media-menu li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:inline-block;
+}
+
+ul.social-media-menu {
+	width:auto;
+	overflow:hidden;
+}
+
+ul.social-media-menu li {
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ul.social-media-menu a:hover {
+	opacity:0.5;
+	filter: alpha(opacity=50)
+}
+
+img.sm-image {
+	width:32px;
+}
+
+p.copyright-text {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size:15px;
+	margin-top:35px;
+	margin-bottom:45px;
+}
+
+p.copyright-text a {
+	color:#000;
+	text-decoration: none;
+}
+
+p.copyright-text a:hover {
+	opacity:0.5;
+	filter: alpha(opacity=50)
+}
+
+ul.site-menu, ul.site-menu li {
+	list-style:none;
+	padding:0;
+	margin:0;
+	display:block;
+}
+
+ul.site-menu {
+	display:none;
+	width:auto;
+	overflow:hidden;
+}
+
+ul.site-menu li {
+	border-bottom:1px solid #D1D1D1;
+}
+
+ul.site-menu a {
+	display:block;
+	font-family:'Raleway', sans-serif;
+	color:#333;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:19px;
+	padding:10px;
+	text-align: left;
+}
+
+ul.site-menu a:hover {
+	color:#999;
+}
+
+a#pull-header-menu, a#pull-footer-menu {
+	display: block;
+	background-color: #D1D1D1;
+	width: 100%;
+	position: relative;
+	text-indent: 25px;
+	height: 40px;
+	color:#fff;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 40px;
+	font-family: 'Cairo', sans-serif;
+	font-size:21px;
+	font-weight: bold;
+	text-align: left;
+}
+
+a#pull-header-menu:after, a#pull-footer-menu:after {
+	content:"";
+	background: url('../images/nav-icon.png') no-repeat;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+
+.empty-space {
+	border-top:1px solid #D1D1D1;
+	margin-top:45px;
+	padding-top:35px;
+}
+
+.contact-me_form {
+	margin-top:20px;
+}
+
+.contact-me_input {
+	background-color:#D1D1D1;
+	border:1px solid #D1D1D1;
+	padding:10px;
+	width:100%;
+}
+
+.contact-me_input:focus, .contact-me_textarea:focus {
+	outline:none;
+}
+
+.contact-me_margin-right {
+	margin-right:10px;
+}
+
+.contact-me_margin-left {
+	margin-left:10px;
+}
+
+.contact-me_textarea {
+	background-color:#D1D1D1;
+	border:1px solid #D1D1D1;
+	padding:10px;
+	width:100%;
+	height: 200px;
+}
+
+.contact-me_label {
+	font-family: 'Quicksand', sans-serif;
+	font-size:18px;
+	margin:5px 0 5px 0;
+	float:left;
+}
+
+.contact-me_submit-btn {
+	float:left;
+	border:1px solid #333;
+	width:70px;
+	background-color:#333;
+	margin-top:10px;
+	padding:7px;
+	color:#fff;
+	text-decoration: none;
+	font-family:'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-size:18px;
+}
+
+.contact-me_submit-btn:hover {
+	opacity:0.5;
+	filter: alpha(opacity=50)
+}
+
+@media only screen and (min-width: 992px) {
+	a#pull-header-menu, a#pull-footer-menu {
+		display:none;
+	}
+
+	ul.site-menu, ul.site-menu li {
+		list-style:none;
+		padding:0;
+		margin:0;
+		display:inline-block;
+	}
+
+	ul.site-menu {
+		width:auto;
+		overflow:hidden;
+	}
+
+	ul.site-menu li {
+		float:left;
+		margin-left: 10px;
+		margin-right: 10px;
+		border-bottom:0;
+	}
+
+	ul.site-menu a {
+		display:inline-block;
+		font-family:'Raleway', sans-serif;
+		color:#333;
+		text-decoration:none;
+		text-transform: uppercase;
+		font-size:19px;
+		padding:0;
+	}
+
+	ul.site-menu a:hover {
+		color:#999;
+	}
+
+	h3.about-me_title {
+		margin:0;
+	}
+}
