@@ -19,8 +19,7 @@
 							<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 profile-description">
 								<div class="box">
 									<h3 class="about-me_title">About me</h3>
-									<p class="about-me_text intro-line">Hello,<br>My name is Matthew, and I'm creating websites and web applications.
-                					I'm an independent creator, I started my journey with programming when I was 12.</p>
+									<p class="about-me_text intro-line">My name is Mateusz, I’m a high school student, always looking for new opportunities. I’m interested in computers since childhood, learning new things everyday.</p>
                 					<p class="about-me_readmore">Read more about me <a href="/matgor4/pages/about-me">here</a>.</p>
 								</div>
 							</div>

@@ -15,10 +15,9 @@
 							<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 profile-description">
 								<div class="box">
 									<h3 class="about-me_title">About me</h3>
-									<p class="about-me_text">Hello,<br>My name is Matthew, and I'm creating websites and web applications.
-                					I'm an independent creator, I started my journey with programming when I was 12.</p>
+									<p class="about-me_text">Hello,<br>My name is Mateusz, I’m a high school student, always looking for new opportunities. I’m interested in computers since childhood, learning new things everyday. Currently most of the time doing web development and trying new things.</p>
                 					
-                					<p class="about-me_text">I have skills and knowledge about technologies such as: HTML5, CSS3, PHP, MySQL, JavaScript, JQuery, AJAX, ReactJS, GIT, RWD.</p>
+                					<p class="about-me_text">I love working with React and JavaScript, I have done a lot of things in PHP and MySQL, I’m proficient in HTML5, CSS3 and Responsive Web Design, I have basic skills in GIT and overview in C++, Python and Java.</p>
 
                 					<p class="about-me_text">Do you want to contact me? Look <a href="/matgor4/pages/contact">here</a>.</p>
                 					<p class="about-me_text">You can also check my GitHub <a href="http://github.com/mgorzanski">here</a>.</p>
