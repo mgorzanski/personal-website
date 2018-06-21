@@ -1,33 +1,36 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
+  <header className="site-header">
+		<div className="site-logo">
+			<div className="row center-lg center-md center-sm center-xs">
+				<div className="col-lg-7 col-md-8 col-sm-10 col-xs-12">
+					<div className="box">
+						<h1 className="site-logo-title">
+							<Link to="/">Mateusz Górzański</Link>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<nav className="site-nav">
+			<div className="row center-lg center-md center-sm center-xs">
+				<div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div className="box">
+						<a href="#" id="pull-header-menu">Menu</a>
+						<ul className="site-menu header-menu">
+							<li><Link to="/">Home</Link></li>
+							<li><Link to="/portfolio/">Portfolio</Link></li>
+							<li><Link to="/about-me/">About Me</Link></li>
+							<li><Link to="/contact-me/">Contact Me</Link></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
 )
 
-export default Header
+export default Header;
