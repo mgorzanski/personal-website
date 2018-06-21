@@ -5,7 +5,7 @@ import Portfolio2048 from './../images/portfolio/2048.png';
 import Link from 'gatsby-link';
 
 const IndexPage = () => (
-  <div>
+  <React.Fragment>
     <section className="site-interlude different-devices">
       <h2 className="site-interlude-big-text">aspiring full stack web dev</h2>
     </section>
@@ -81,7 +81,7 @@ const IndexPage = () => (
         </div>
       </div>
     </main>
-  </div>
+  </React.Fragment>
 );
 
 export default IndexPage;

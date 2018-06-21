@@ -4,7 +4,7 @@ import GithubIcon from './../images/github.png';
 import Link from 'gatsby-link';
 
 const Footer = () => (
-    <footer classNameName="site-footer">
+    <footer className="site-footer">
 		<nav className="site-nav">
 			<div className="row center-lg center-md center-sm center-xs">
 				<div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
