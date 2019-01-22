@@ -239,6 +239,10 @@ ul.site-menu {
     overflow:hidden;
 }
 
+ul.site-menu-display {
+    display:block;
+}
+
 ul.site-menu li {
     border-bottom:1px solid #D1D1D1;
 }
@@ -258,7 +262,7 @@ ul.site-menu a:hover {
     color:#999;
 }
 
-a#pull-header-menu, a#pull-footer-menu {
+button#pull-header-menu, button#pull-footer-menu {
     display: block;
     background-color: #D1D1D1;
     width: 100%;
@@ -273,9 +277,10 @@ a#pull-header-menu, a#pull-footer-menu {
     font-size:21px;
     font-weight: bold;
     text-align: left;
+    border:0;
 }
 
-a#pull-header-menu:after, a#pull-footer-menu:after {
+button#pull-header-menu:after, button#pull-footer-menu:after {
     content:"";
     background: url('./../images/nav-icon.png') no-repeat;
     width: 30px;
@@ -284,6 +289,7 @@ a#pull-header-menu:after, a#pull-footer-menu:after {
     position: absolute;
     right: 15px;
     top: 10px;
+    border:0;
 }
 
 .empty-space {
@@ -350,7 +356,7 @@ a#pull-header-menu:after, a#pull-footer-menu:after {
 }
 
 @media only screen and (min-width: 992px) {
-    a#pull-header-menu, a#pull-footer-menu {
+    button#pull-header-menu, button#pull-footer-menu {
     display:none;
     }
 
