@@ -57,17 +57,17 @@ export default class Footer extends React.Component {
               <div className="box">
                 <ul className="social-media-menu">
                   <li>
+                    <a href="http://github.com/mgorzanski">
+                      <img className="sm-image" src={GithubIcon} alt="GitHub" />
+                    </a>
+                  </li>
+                  <li>
                     <a href="http://twitter.com/gorzanski">
                       <img
                         className="sm-image"
                         src={TwitterIcon}
                         alt="Twitter"
                       />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://github.com/mgorzanski">
-                      <img className="sm-image" src={GithubIcon} alt="GitHub" />
                     </a>
                   </li>
                 </ul>
@@ -77,7 +77,7 @@ export default class Footer extends React.Component {
         </nav>
 
         <p className="copyright-text">
-          &copy; 2017, <Link to="/">Mateusz Górzański</Link>
+          &copy; 2017 - 2019, <Link to="/">Mateusz Górzański</Link>
         </p>
       </footer>
     )

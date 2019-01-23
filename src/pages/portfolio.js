@@ -1,5 +1,10 @@
 import React from 'react'
-import PortfolioThumbnail from './../images/thumbnail.jpg'
+import ThumbnailMatgor from './../images/portfolio/matgor.png'
+import ThumbnailDanceHouse from './../images/portfolio/dance-house.png'
+import ThumbnailDevbees from './../images/portfolio/devbees.png'
+import ThumbnailRSSApp from './../images/portfolio/rss-app.png'
+import ThumbnailPomodoro from './../images/portfolio/pomodoro.png'
+import ThumbnailCalendarApp from './../images/portfolio/calendar-app.png'
 import Layout from './../components/layout'
 
 const PortfolioPage = () => (
@@ -15,15 +20,18 @@ const PortfolioPage = () => (
                   <div className="box">
                     <a
                       className="portfolio-item-link"
-                      href="/matgor4/portfolio/item/design-for-wordpress-com"
+                      href="http://mateuszgorzanski.pl/"
                     >
                       <img
                         className="portfolio-item-thumbnail image"
-                        src={PortfolioThumbnail}
-                        alt="Design for wordpress.com"
+                        src={ThumbnailMatgor}
+                        alt="This website"
                       />
+                      <p className="portfolio-item-hidden-description">
+                        The website you are looking at; my personal website, builded using GatsbyJS, hosted on Netlify.
+                      </p>
                       <h4 className="portfolio-item-title">
-                        Design for wordpress.com
+                        This website
                       </h4>
                     </a>
                   </div>
@@ -32,15 +40,18 @@ const PortfolioPage = () => (
                   <div className="box">
                     <a
                       className="portfolio-item-link"
-                      href="/matgor4/portfolio/item/design-for-wordpress-com"
+                      href="http://dancehouse.com.pl/"
                     >
                       <img
                         className="portfolio-item-thumbnail image"
-                        src={PortfolioThumbnail}
-                        alt="Design for wordpress.com"
+                        src={ThumbnailDanceHouse}
+                        alt="Dance House"
                       />
+                      <p className="portfolio-item-hidden-description">
+                        Website built for my client, a dance studio.
+                      </p>
                       <h4 className="portfolio-item-title">
-                        Design for wordpress.com
+                        Dance House - dance studio
                       </h4>
                     </a>
                   </div>
@@ -49,15 +60,18 @@ const PortfolioPage = () => (
                   <div className="box">
                     <a
                       className="portfolio-item-link"
-                      href="/matgor4/portfolio/item/design-for-wordpress-com"
+                      href="http://sharku.ct8.pl/devbees/"
                     >
                       <img
                         className="portfolio-item-thumbnail image"
-                        src={PortfolioThumbnail}
-                        alt="Design for wordpress.com"
+                        src={ThumbnailDevbees}
+                        alt="devbees"
                       />
+                      <p className="portfolio-item-hidden-description">
+                        Website built for a team I'm part of
+                      </p>
                       <h4 className="portfolio-item-title">
-                        Design for wordpress.com
+                        devbees - team website
                       </h4>
                     </a>
                   </div>
@@ -66,15 +80,18 @@ const PortfolioPage = () => (
                   <div className="box">
                     <a
                       className="portfolio-item-link"
-                      href="/matgor4/portfolio/item/design-for-wordpress-com"
+                      href="https://github.com/mgorzanski/rss-app"
                     >
                       <img
                         className="portfolio-item-thumbnail image"
-                        src={PortfolioThumbnail}
-                        alt="Design for wordpress.com"
+                        src={ThumbnailRSSApp}
+                        alt="Today"
                       />
+                      <p className="portfolio-item-hidden-description">
+                        Built using Laravel 5. Currently I cannot provide a link to the working app.
+                      </p>
                       <h4 className="portfolio-item-title">
-                        Design for wordpress.com
+                        Today - a RSS reader web app
                       </h4>
                     </a>
                   </div>
@@ -83,15 +100,18 @@ const PortfolioPage = () => (
                   <div className="box">
                     <a
                       className="portfolio-item-link"
-                      href="/matgor4/portfolio/item/design-for-wordpress-com"
+                      href="https://github.com/mgorzanski/pomodoro"
                     >
                       <img
                         className="portfolio-item-thumbnail image"
-                        src={PortfolioThumbnail}
-                        alt="Design for wordpress.com"
+                        src={ThumbnailPomodoro}
+                        alt="Pomodoro"
                       />
+                      <p className="portfolio-item-hidden-description">
+                        Simple app built using React and Electron
+                      </p>
                       <h4 className="portfolio-item-title">
-                        Design for wordpress.com
+                        Pomodoro desktop app
                       </h4>
                     </a>
                   </div>
@@ -100,49 +120,18 @@ const PortfolioPage = () => (
                   <div className="box">
                     <a
                       className="portfolio-item-link"
-                      href="/matgor4/portfolio/item/design-for-wordpress-com"
+                      href="https://github.com/mgorzanski/calendar-app"
                     >
                       <img
                         className="portfolio-item-thumbnail image"
-                        src={PortfolioThumbnail}
-                        alt="Design for wordpress.com"
+                        src={ThumbnailCalendarApp}
+                        alt="Calendar desktop app"
                       />
+                      <p className="portfolio-item-hidden-description">
+                        My current project. Coming soon...
+                      </p>
                       <h4 className="portfolio-item-title">
-                        Design for wordpress.com
-                      </h4>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 portfolio-item">
-                  <div className="box">
-                    <a
-                      className="portfolio-item-link"
-                      href="/matgor4/portfolio/item/design-for-wordpress-com"
-                    >
-                      <img
-                        className="portfolio-item-thumbnail image"
-                        src={PortfolioThumbnail}
-                        alt="Design for wordpress.com"
-                      />
-                      <h4 className="portfolio-item-title">
-                        Design for wordpress.com
-                      </h4>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 portfolio-item">
-                  <div className="box">
-                    <a
-                      className="portfolio-item-link"
-                      href="/matgor4/portfolio/item/design-for-wordpress-com"
-                    >
-                      <img
-                        className="portfolio-item-thumbnail image"
-                        src={PortfolioThumbnail}
-                        alt="Design for wordpress.com"
-                      />
-                      <h4 className="portfolio-item-title">
-                        Design for wordpress.com
+                        Calendar desktop app
                       </h4>
                     </a>
                   </div>

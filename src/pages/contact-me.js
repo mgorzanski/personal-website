@@ -26,7 +26,7 @@ const ContactMePage = () => (
                       <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 start-lg start-md start-sm start-xs">
                           <div className="box contact-me_margin-right">
-                            <label className="contact-me_label" for="nameInput">
+                            <label className="contact-me_label" htmlFor="nameInput">
                               Your Name:
                             </label>
                             <input
@@ -44,7 +44,7 @@ const ContactMePage = () => (
                           <div className="box contact-me_margin-left">
                             <label
                               className="contact-me_label"
-                              for="emailInput"
+                              htmlFor="emailInput"
                             >
                               Your Email:
                             </label>
@@ -65,7 +65,7 @@ const ContactMePage = () => (
                           <div className="box">
                             <label
                               className="contact-me_label"
-                              for="subjectInput"
+                              htmlFor="subjectInput"
                             >
                               Subject:
                             </label>
@@ -84,7 +84,7 @@ const ContactMePage = () => (
                           <div className="box">
                             <label
                               className="contact-me_label"
-                              for="messageTextarea"
+                              htmlFor="messageTextarea"
                             >
                               Message:
                             </label>

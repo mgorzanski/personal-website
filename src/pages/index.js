@@ -1,7 +1,9 @@
 import React from 'react'
 import ProfilePhoto from './../images/profile.jpg'
-import PortfolioThumbnail from './../images/thumbnail.jpg'
-import Portfolio2048 from './../images/portfolio/2048.png'
+import ThumbnailMatgor from './../images/portfolio/matgor.png'
+import ThumbnailDanceHouse from './../images/portfolio/dance-house.png'
+import ThumbnailDevbees from './../images/portfolio/devbees.png'
+import ThumbnailRSSApp from './../images/portfolio/rss-app.png'
 import { Link } from 'gatsby'
 import Layout from './../components/layout'
 
@@ -43,36 +45,24 @@ const IndexPage = () => (
             </section>
 
             <section className="portfolio portfolio-space">
-              <h2 className="section-title">My last work</h2>
+              <h2 className="section-title">My work</h2>
               <div className="row portfolio-items">
                 <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 portfolio-item">
                   <div className="box">
                     <a
                       className="portfolio-item-link"
-                      href="https://github.com/mgorzanski/2048/"
+                      href="http://mateuszgorzanski.pl/"
                     >
                       <img
                         className="portfolio-item-thumbnail image"
-                        src={Portfolio2048}
-                        alt="2048"
+                        src={ThumbnailMatgor}
+                        alt="This website"
                       />
-                      <h4 className="portfolio-item-title">2048</h4>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 portfolio-item">
-                  <div className="box">
-                    <a
-                      className="portfolio-item-link"
-                      href="/matgor4/portfolio/item/design-for-wordpress-com"
-                    >
-                      <img
-                        className="portfolio-item-thumbnail image"
-                        src={PortfolioThumbnail}
-                        alt="Design for wordpress.com"
-                      />
+                      <p className="portfolio-item-hidden-description">
+                        The website you are looking at; my personal website, builded using GatsbyJS, hosted on Netlify.
+                      </p>
                       <h4 className="portfolio-item-title">
-                        Design for wordpress.com
+                        This website
                       </h4>
                     </a>
                   </div>
@@ -81,15 +71,18 @@ const IndexPage = () => (
                   <div className="box">
                     <a
                       className="portfolio-item-link"
-                      href="/matgor4/portfolio/item/design-for-wordpress-com"
+                      href="http://dancehouse.com.pl/"
                     >
                       <img
                         className="portfolio-item-thumbnail image"
-                        src={PortfolioThumbnail}
-                        alt="Design for wordpress.com"
+                        src={ThumbnailDanceHouse}
+                        alt="Dance House"
                       />
+                      <p className="portfolio-item-hidden-description">
+                        Website built for my client, a dance studio.
+                      </p>
                       <h4 className="portfolio-item-title">
-                        Design for wordpress.com
+                        Dance House - dance studio
                       </h4>
                     </a>
                   </div>
@@ -98,15 +91,38 @@ const IndexPage = () => (
                   <div className="box">
                     <a
                       className="portfolio-item-link"
-                      href="/matgor4/portfolio/item/design-for-wordpress-com"
+                      href="http://sharku.ct8.pl/devbees/"
                     >
                       <img
                         className="portfolio-item-thumbnail image"
-                        src={PortfolioThumbnail}
-                        alt="Design for wordpress.com"
+                        src={ThumbnailDevbees}
+                        alt="devbees"
                       />
+                      <p className="portfolio-item-hidden-description">
+                        Website built for a team I'm part of
+                      </p>
                       <h4 className="portfolio-item-title">
-                        Design for wordpress.com
+                        devbees - team website
+                      </h4>
+                    </a>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 portfolio-item">
+                  <div className="box">
+                    <a
+                      className="portfolio-item-link"
+                      href="https://github.com/mgorzanski/rss-app"
+                    >
+                      <img
+                        className="portfolio-item-thumbnail image"
+                        src={ThumbnailRSSApp}
+                        alt="Today"
+                      />
+                      <p className="portfolio-item-hidden-description">
+                        Built using Laravel 5. Currently I cannot provide a link to the working app.
+                      </p>
+                      <h4 className="portfolio-item-title">
+                        Today - a RSS reader web app
                       </h4>
                     </a>
                   </div>

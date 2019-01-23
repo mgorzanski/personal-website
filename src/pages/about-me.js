@@ -34,10 +34,8 @@ const AboutMePage = () => (
                     </p>
 
                     <p className="about-me_text">
-                      I love working with React and JavaScript, I have done a
-                      lot of things in PHP and MySQL, I’m proficient in HTML5,
-                      CSS3 and Responsive Web Design, I have basic skills in GIT
-                      and overview in C++, Python and Java.
+                      I love working with React and JavaScript. I’m proficient in HTML5,
+                      CSS3 and Responsive Web Design. I have basic skills in GIT.
                     </p>
 
                     <p className="about-me_text">
