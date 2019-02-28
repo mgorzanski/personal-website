@@ -20,7 +20,12 @@ export default ({ children }) => (
     `}
     render={data => (
       <>
-        <Helmet title={data.site.siteMetadata.title} />
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{data.site.siteMetadata.title}</title>
+          <meta name="description" content="My name is Mateusz, I’m a high school student, always looking for new opportunities. I’m interested in computers since childhood, learning new things everyday." />
+          <link rel="me" href="mailto:gorzanski.mateusz@gmail.com" />
+        </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         {children}
         <Footer />
